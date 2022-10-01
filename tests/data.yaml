@@ -1,0 +1,15 @@
+a:
+  b: 1
+  c:
+    - one
+    - two
+    - three:
+        A: 6
+        B: 7
+    - four:
+        - 8
+        - 9
+  d:
+    e: 3
+    f: 4
+g: 5
