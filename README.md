@@ -41,7 +41,7 @@ g: 5
 The following values can be obtained using `print_yaml`
 
 ```bash
-$ print_yaml tests/data.yaml -d 1
+$ print_yaml data.yaml -d 1
 
 a: 
 g: 
@@ -49,7 +49,7 @@ g:
 
 
 ```bash
-$ print_yaml tests/data.yaml -d 2
+$ print_yaml data.yaml -d 2
 
 a:
   b: 
@@ -59,7 +59,7 @@ g: 5
 ```
 
 ```bash
-$ print_yaml tests/data.yaml -d 3
+$ print_yaml data.yaml -d 3
 
 a:
   b: 1
@@ -77,17 +77,17 @@ g: 5
 ### With value
 
 By default, only the "key" in the yaml file is output.  
-If you add the '--value' or '-v' option, it also outputs a single value.
+If you add the `--value` or `-v` option, it also outputs a single value.
 
 ```bash
-$ print_yaml tests/data.yaml -d 1 -v
+$ print_yaml data.yaml -d 1 -v
 
 a: 
 g: 5
 ```
 
 ```bash
-$ print_yaml tests/data.yaml -d 2 -v
+$ print_yaml data.yaml -d 2 -v
 a:
   b: 1
   c: 
@@ -96,7 +96,7 @@ g: 5
 ```
 
 ```bash
-$ print_yaml tests/data.yaml -d 3 -v
+$ print_yaml data.yaml -d 3 -v
 a:
   b: 1
   c:
