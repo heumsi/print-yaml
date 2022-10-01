@@ -55,5 +55,9 @@ def main(
         print(result)
 
 
-if __name__ == "__main__":
+def run():
     typer.run(main)
+
+
+if __name__ == "__main__":
+    run()

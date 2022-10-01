@@ -6,6 +6,9 @@ authors = ["heumsi <heumsi@naver.com>"]
 readme = "README.md"
 packages = [{include = "print_yaml"}]
 
+[tool.poetry.scripts]
+print_yaml = "print_yaml.main:run"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 typer = {extras = ["all"], version = "^0.6.1"}
